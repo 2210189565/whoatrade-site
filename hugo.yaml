@@ -1,7 +1,4 @@
-baseURL: "https://whoatrade-site.vercel.app/"
-languageCode: "zh-cn"
-title: "我们一起学习进步"
+baseURL: "https://example.org/"
+languageCode: "en-us"
+title: "My New Hugo Site"
 theme: ["PaperMod"]
-paginate: 10
-
-
