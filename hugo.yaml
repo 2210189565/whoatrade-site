@@ -1,4 +1,12 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: https://whoatrade-site.vercel.app/  # ← ✅ 建议你改成你博客的 Vercel 地址
+languageCode: zh-cn                         # ← ✅ 改为中文语言
+title: 我们一起学习进步                     # ← ✅ 改成你想要的博客标题
 theme: ["PaperMod"]
+
+mainSections:
+  - posts
+
+params:
+  homeInfoParams:
+    Title: "我们一起学习进步"
+    Content: "用费曼学习法建立交易系统，告别韭菜思维，记录成长认知。"
