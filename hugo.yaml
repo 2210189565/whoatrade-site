@@ -1,12 +1,13 @@
-baseURL: https://whoatrade-site.vercel.app/  # ← ✅ 建议你改成你博客的 Vercel 地址
-languageCode: zh-cn                         # ← ✅ 改为中文语言
-title: 我们一起学习进步                     # ← ✅ 改成你想要的博客标题
-theme: ["PaperMod"]
-
-mainSections:
-  - posts
+# 原有配置基础上添加：
+paginate: 10
 
 params:
   homeInfoParams:
-    Title: "我们一起学习进步"
-    Content: "用费曼学习法建立交易系统，告别韭菜思维，记录成长认知。"
+    Title: 欢迎来到 WhoaTrade！
+    Content: |
+      分享我的交易笔记、加密货币见解与学习反思。
+      请点击上方导航栏进入文章列表或教程分类。
+
+  # 必须启用文章目录识别为首页显示区域
+  mainSections:
+    - posts
