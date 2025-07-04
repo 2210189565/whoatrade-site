@@ -1,4 +1,28 @@
+baseURL: "https://whoatrade-site.vercel.app/"
+languageCode: "zh-cn"
+title: "我们一起学习进步"
+theme: ["PaperMod"]
+paginate: 10
+
 params:
+  homeInfoParams:
+    Title: 欢迎来到 WhoaTrade！
+    Content: |
+      分享我的交易笔记、加密货币见解与学习反思。
+      请点击上方导航栏进入文章列表或教程分类。
+
+  mainSections:
+    - posts
+
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+
+menu:
+  main:
+    - identifier: posts
+      name: 文章
+      url: /posts/
+      weight: 1params:
   homeInfoParams:
     Title: Hi there wave
     Content: Can be Info, links, about...
