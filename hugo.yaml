@@ -1,4 +1,7 @@
-# 原有配置基础上添加：
+baseURL: "https://whoatrade-site.vercel.app/"
+languageCode: "zh-cn"
+title: "我们一起学习进步"
+theme: ["PaperMod"]
 paginate: 10
 
 params:
@@ -8,6 +11,16 @@ params:
       分享我的交易笔记、加密货币见解与学习反思。
       请点击上方导航栏进入文章列表或教程分类。
 
-  # 必须启用文章目录识别为首页显示区域
   mainSections:
     - posts
+
+menu:
+  main:
+    - identifier: posts
+      name: 文章
+      url: /posts/
+      weight: 1
+    - identifier: about
+      name: 关于我
+      url: /about/
+      weight: 2
